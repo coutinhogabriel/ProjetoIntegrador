@@ -1,0 +1,25 @@
+.navbar img{
+width: 250px;
+}
+
+.navbar{
+    background-color: rgba(2, 157, 18, 0.7); 
+}
+
+.navbarFooter{
+    background-color: rgba(2, 157, 18, 0.7); 
+}
+
+body {
+    background-color: white;
+}
+.jumbotron{
+    height: 350px;
+    background-image: url(img/bg2.jpg);
+    background-size: cover;
+    background-position-y:-400px; 
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
