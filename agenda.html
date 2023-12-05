@@ -51,7 +51,28 @@
 
 <!--RESTO DO CÓDIGO-->
 
-<h1>TELA DE AGENDAMENTOS</h1>
+<div class="container mt-4">
+    <h1>Agendamento de Serviços</h1>
+    <form action="agendamento.php" method="post">
+        <div class="mb-3">
+            <label for="servico" class="form-label">Tipo de Serviço</label>
+            <select class="form-select" id="servico" name="servico" required>
+                <option value="hotel">Hotel para Pets</option>
+                <option value="creche">Creche para Pets</option>
+                <option value="spa">Spa para Pets</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="data" class="form-label">Data</label>
+            <input type="date" class="form-control" id="data" name="data" required>
+        </div>
+        <div class="mb-3">
+            <label for="horario" class="form-label">Horário</label>
+            <input type="time" class="form-control" id="horario" name="horario" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Agendar</button>
+    </form>
+</div>
 
 
 
